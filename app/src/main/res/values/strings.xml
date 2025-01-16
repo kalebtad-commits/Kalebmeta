@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">KalebLogin</string>
+    <string name="adventure_map_illustration">Adventure map illustration</string>
+    <string name="welcome_back_text">Welcome back text</string>
+    <string name="email_hint">Email</string>
+    <string name="email_content_description">Enter your email address</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="password_content_description">Enter your password</string>
+    <string name="email_icon">Email icon</string>
+    <string name="password_icon">Password lock icon</string>
+    <string name="navigate_next">Navigate to the next page</string>
+    <string name="forgot_password_text">Forgot password text</string>
+    <string name="decoration_rectangle">Decoration rectangle</string>
+    <string name="remember_me_text">Remember me text</string>
+    <string name="sign_in_text">Sign in to access your account text</string>
+    <string name="register_now_text">New member? Register now text</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="cd_phone_number">Enter your phone number</string>
+
+    <string name="hint_email">Email</string>
+    <string name="cd_email">Enter your email address</string>
+
+    <string name="hint_full_name">Full Name</string>
+    <string name="cd_full_name">Enter your full name</string>
+
+    <string name="hint_password">Enter your password</string>
+    <string name="cd_password">Password input field</string>
+
+    <string name="cd_map_illustration">Adventure map illustration</string>
+    <string name="cd_email_icon">Email icon</string>
+    <string name="cd_lock_icon">Lock icon for password</string>
+    <string name="cd_continue">Navigate to the next page</string>
+    <string name="cd_rectangle_decoration">Rectangular decoration</string>
+    <string name="cd_get_started">Get started message</string>
+    <string name="cd_free_account_message">Message about creating a free account</string>
+    <string name="cd_user_icon">User icon</string>
+    <string name="cd_smartphone_icon">Smartphone icon</string>
+    <string name="cd_terms_and_conditions">Terms and conditions message</string>
+    <string name="cd_login_message">Already a member? Log in here</string>
+
+</resources>

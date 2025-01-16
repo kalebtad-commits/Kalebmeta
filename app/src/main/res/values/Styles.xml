@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for ImageView -->
+    <style name="ImageViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Style for EditText -->
+    <style name="EditTextStyle">
+        <item name="android:layout_width">353dp</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/edit_text_background</item>
+    </style>
+
+    <!-- Style for CheckBox -->
+    <style name="CheckBoxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Style for TextView -->
+    <style name="TextViewStyle">
+        <item name="android:layout_marginTop">11dp</item>
+    </style>
+
+    <!-- Style for Button -->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>
+
