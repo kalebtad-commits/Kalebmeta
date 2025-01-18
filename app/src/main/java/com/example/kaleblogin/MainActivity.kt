@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         }
         // Validate password using the CredentialsManager
         else if (!credentialsManager.isPasswordValid(password)) {
-            findViewById<EditText>(R.id.passwordEditText).error = "Password must be at least 6 characters"
+            findViewById<EditText>(R.id.passwordEditText).error = "Wrong Password!"
         } else {
             Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show()
         }

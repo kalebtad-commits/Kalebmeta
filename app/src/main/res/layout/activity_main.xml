@@ -40,8 +40,9 @@
     <EditText
         android:id="@+id/emailEditText"
         style="@style/TextViewStyle"
-        android:layout_width="353dp"
+        android:layout_width="match_parent"
         android:layout_height="54dp"
+        android:layout_marginHorizontal="20dp"
         android:autofillHints=""
         android:hint="@string/email_hint"
         android:background="@drawable/edit_text_background"
