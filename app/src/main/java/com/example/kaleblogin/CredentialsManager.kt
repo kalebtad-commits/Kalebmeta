@@ -8,7 +8,4 @@ class CredentialsManager {
     fun isPasswordValid(password: String): Boolean {
         return password == "1234"  // Exact match for password
     }
-
-    fun
 }
-

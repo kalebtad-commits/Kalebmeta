@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KalebLogin"
         tools:targetApi="31">
+        <activity
+            android:name=".FragmentExampleActivity"
+            android:exported="false" />
         <activity android:name=".GetStartedActivity" />
         <activity
             android:name=".MainActivity"

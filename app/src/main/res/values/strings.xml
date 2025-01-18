@@ -40,5 +40,7 @@
     <string name="cd_smartphone_icon">Smartphone icon</string>
     <string name="cd_terms_and_conditions">Terms and conditions message</string>
     <string name="cd_login_message">Already a member? Log in here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
