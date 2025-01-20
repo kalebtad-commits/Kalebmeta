@@ -131,7 +131,6 @@
         android:layout_height="24dp"
         android:layout_marginTop="162dp"
         android:text="@string/already_a_member_login"
-        android:onClick="signin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.602"

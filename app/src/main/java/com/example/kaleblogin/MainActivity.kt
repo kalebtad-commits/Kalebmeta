@@ -25,40 +25,36 @@ class MainActivity : AppCompatActivity() {
             return@setOnApplyWindowInsetsListener insets // Fix the return type issue
         }
 
-        // Setting up button listener
-        val btnOpenFragments = findViewById<Button>(R.id.btnOpenFragments)
-        btnOpenFragments.setOnClickListener {
-            val intent = Intent(this, FragmentExampleActivity::class.java)
-            startActivity(intent)
-        }
+        // Add the fragment dynamically
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, SigninFragment())
+            .commit()
+
     }
 
-    fun createaccount(view: View) {
-        val intent = Intent(this, GetStartedActivity::class.java)
-        startActivity(intent)
-    }
+//    fun createaccount(view: View) {
+//        val intent = Intent(this, GetStartedActivity::class.java)
+//        startActivity(intent)
+//    }
+//
+//    fun validateForm(view: View) {
+//        val email = findViewById<EditText>(R.id.emailEditText).text.toString()
+//        val password = findViewById<EditText>(R.id.passwordEditText).text.toString()
+//
+//        // Instantiate CredentialsManager
+//        val credentialsManager = CredentialsManager()
+//
+//        // Validate email using the CredentialsManager
+//        if (!credentialsManager.isEmailValid(email)) {
+//            findViewById<EditText>(R.id.emailEditText).error = "Invalid email"
+//        }
+//        // Validate password using the CredentialsManager
+//        else if (!credentialsManager.isPasswordValid(password)) {
+//            findViewById<EditText>(R.id.passwordEditText).error = "Wrong Password!"
+//        } else {
+//            Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show()
+//        }
+//    }
+//
 
-    fun validateForm(view: View) {
-        val email = findViewById<EditText>(R.id.emailEditText).text.toString()
-        val password = findViewById<EditText>(R.id.passwordEditText).text.toString()
-
-        // Instantiate CredentialsManager
-        val credentialsManager = CredentialsManager()
-
-        // Validate email using the CredentialsManager
-        if (!credentialsManager.isEmailValid(email)) {
-            findViewById<EditText>(R.id.emailEditText).error = "Invalid email"
-        }
-        // Validate password using the CredentialsManager
-        else if (!credentialsManager.isPasswordValid(password)) {
-            findViewById<EditText>(R.id.passwordEditText).error = "Wrong Password!"
-        } else {
-            Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show()
-        }
-    }
-
-    fun signin(view: View) {
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
-    }
 }
